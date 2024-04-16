@@ -15,6 +15,7 @@ The project uses a labeled dataset of ASL images to train an image classificatio
 - Training of the model on a labeled dataset
 - Evaluation of the model on a test dataset
 - Streamlit API
+- CV2/MediaPipe
 
 ## Installation
 
