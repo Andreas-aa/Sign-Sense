@@ -25,7 +25,7 @@ hands = mp_hands.Hands(static_image_mode=True,
 ######################
 
 
-DATA_DIR = '/Users/nikolai/Desktop/niko_hand_detection/asl_alphabet_train'
+DATA_DIR = '/asl_alphabet_train'
 
 ##### LOAD EACH IMAGE IN THE TRAINING SET #####
 
