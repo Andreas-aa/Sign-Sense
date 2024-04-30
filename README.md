@@ -25,9 +25,9 @@ To install the project, you need to clone this GitHub repository and install the
 
 - Launch the FastAPI: `uvicorn package_folder.api_file:app --reload`
 
-- Use the provided API endpoints to interact with the ASL recognition system.
+- The API provides the following endpoints:
+      _/predict:_ Accepts an image or video file containing ASL gestures and returns the predicted letter or word.
 
-- Deploy the trained model and FastAPI server to a cloud platform.
 
 ## Dataset
 The data set is a collection of images of alphabets from the American Sign Language, separated in 29 folders which represent the various classes.   
