@@ -32,7 +32,8 @@ To install the project, you need to clone this GitHub repository and install the
 ## Dataset
 This dataset consists of ASL images, organized into 29 folders, each representing a distinct class. The training dataset comprises 87,000 images, each with a resolution of 200x200 pixels. The 29 classes encompass the 26 letters of the alphabet (A-Z), as well as SPACE, DELETE, and NOTHING.  
 
-Each training and test case corresponds to a label (0-27) that maps one-to-one to an alphabetic letter (A-Z). _Please note that there are no cases for 9=J or 25=Z due to similarities in gesture motions._  
+Each training and test case corresponds to a label (0-27) that maps one-to-one to an alphabetic letter (A-Z).  
+_Please note that there are no cases for 9=J or 25=Z due to similarities in gesture motions._  
 
 In some model iterations, the SPACE, DELETE, and NOTHING classes were removed to evaluate if the model's performance could be improved without them.  
 
