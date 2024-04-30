@@ -1,6 +1,6 @@
 # *American Sign Language Image Classification*
 
-This project aims to develop a model for classifying American Sign Language (ASL) images into English. The goal is to create a tool that can recognize ASL signs from images and translate them into English.
+This project aims to develop a model for American Sign Language (ASL) recognition, enabling the prediction of letters and words from images and videos of ASL gestures. The system utilizes various techniques including convolutional neural networks (CNNs), transfer learning, data augmentation, and landmark detection for accurate recognition of ASL gestures.
 
 ## Project Description
 
@@ -23,6 +23,10 @@ To install the project, you need to clone this GitHub repository and install the
 `pip install -r requirements.txt`
 
 ## Dataset
+The data set is a collection of images of alphabets from the American Sign Language, separated in 29 folders which represent the various classes.
+The training data set contains 87,000 images which are 200x200 pixels. There are 29 classes, of which 26 are for the letters A-Z and 3 classes for SPACE, DELETE and NOTHING.
+Each training and test case represents a label (0-27) as a one-to-one map for each alphabetic letter A-Z (and no cases for 9=J or 25=Z because of gesture motions).
+For some modeles 3 classes for SPACE, DELETE and NOTHING were removed to check if the model can work better.
 
 You can download the Kaggle dataset on this link : https://www.kaggle.com/datasets/grassknoted/asl-alphabet/data
 
