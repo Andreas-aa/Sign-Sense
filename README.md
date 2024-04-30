@@ -30,13 +30,11 @@ To install the project, you need to clone this GitHub repository and install the
 
 
 ## Dataset
-The data set is a collection of images of alphabets from the American Sign Language, separated in 29 folders which represent the various classes.   
+This dataset consists of ASL images, organized into 29 folders, each representing a distinct class. The training dataset comprises 87,000 images, each with a resolution of 200x200 pixels. The 29 classes encompass the 26 letters of the alphabet (A-Z), as well as SPACE, DELETE, and NOTHING.  
 
-The training data set contains 87,000 images which are 200x200 pixels. There are 29 classes, of which 26 are for the letters A-Z and 3 classes for SPACE, DELETE and NOTHING.   
+Each training and test case corresponds to a label (0-27) that maps one-to-one to an alphabetic letter (A-Z). _Please note that there are no cases for 9=J or 25=Z due to similarities in gesture motions._  
 
-Each training and test case represents a label (0-27) as a one-to-one map for each alphabetic letter A-Z (and no cases for 9=J or 25=Z because of gesture motions).   
-
-For some modeles 3 classes for SPACE, DELETE and NOTHING were removed to check if the model can work better.
+In some model iterations, the SPACE, DELETE, and NOTHING classes were removed to evaluate if the model's performance could be improved without them.  
 
 You can download the Kaggle dataset on this link : https://www.kaggle.com/datasets/grassknoted/asl-alphabet/data
 
