@@ -1,7 +1,6 @@
 # *American Sign Language Image Classification*
 
-This project aims to develop a model for American Sign Language (ASL) recognition, enabling the prediction of letters and words from images and videos of ASL gestures. The system utilizes various techniques including convolutional neural networks (CNNs), transfer learning, data augmentation, and landmark detection for accurate recognition of ASL gestures.
-
+This project aims to develop a model for American Sign Language (ASL) recognition, enabling the prediction of letters and words from images and videos of ASL gestures.
 ## Project Description
 
 Sign language is an essential means of communication for people who are deaf or hard of hearing. However, there is a communication barrier between people who use sign language and those who do not. This project aims to reduce this barrier by developing a model that can recognize ASL signs and translate them into English.
