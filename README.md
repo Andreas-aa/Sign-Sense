@@ -1,4 +1,4 @@
-# Sign-Sense Project : *American Sign Language Image Classification*
+# *American Sign Language Image Classification*
 
 This project aims to develop a model for classifying American Sign Language (ASL) images into English. The goal is to create a tool that can recognize ASL signs from images and translate them into English.
 
