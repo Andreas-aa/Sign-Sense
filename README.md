@@ -23,11 +23,11 @@ To install the project, you need to clone this GitHub repository and install the
 *The dependencies are listed in the `requirements.txt` file. You can install the dependencies using pip:
 `pip install -r requirements.txt`
 
-*Launch the FastAPI: `uvicorn package_folder.api_file:app --reload`
+- Launch the FastAPI: `uvicorn package_folder.api_file:app --reload`
 
-*Use the provided API endpoints to interact with the ASL recognition system.
+- Use the provided API endpoints to interact with the ASL recognition system.
 
-*Deploy the trained model and FastAPI server to a cloud platform.
+- Deploy the trained model and FastAPI server to a cloud platform.
 
 ## Dataset
 The data set is a collection of images of alphabets from the American Sign Language, separated in 29 folders which represent the various classes.   
