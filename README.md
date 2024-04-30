@@ -20,7 +20,7 @@ The project uses a labeled dataset of ASL images to train an image classificatio
 ## Installation
 
 To install the project, you need to clone this GitHub repository and install the required dependencies.  
-*The dependencies are listed in the `requirements.txt` file. You can install the dependencies using pip:
+- The dependencies are listed in the `requirements.txt` file. You can install the dependencies using pip:
 `pip install -r requirements.txt`
 
 - Launch the FastAPI: `uvicorn package_folder.api_file:app --reload`
