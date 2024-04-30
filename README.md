@@ -42,5 +42,5 @@ You can download the Kaggle dataset on this link : https://www.kaggle.com/datase
 
 ## Usage
 
-The project's API was deployed on the cloud in March 2024 and is not currently available for use. Here's a quick look at what it looked like :
+Here's a quick look at what the API looks like:
 ![Live Usage of the API predicting the word LEWAGON](API_TEST.gif)
