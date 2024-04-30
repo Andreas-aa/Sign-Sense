@@ -26,7 +26,8 @@ To install the project, you need to clone this GitHub repository and install the
 - Launch the FastAPI: `uvicorn package_folder.api_file:app --reload`
 
 - Prediction endpoint of the API:
-      _/predict:_ Accepts an image or video file containing ASL gestures and returns the predicted letter or word.
+      `/predict`
+  => Accepts an image or video file containing ASL gestures and returns the predicted letter or word.
 
 
 ## Dataset
